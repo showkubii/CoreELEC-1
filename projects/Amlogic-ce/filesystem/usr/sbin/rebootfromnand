@@ -6,3 +6,5 @@
 
 if /usr/sbin/fw_printenv whereToBootFrom > /dev/null 2>&1; then /usr/sbin/fw_setenv whereToBootFrom internal; fi
 /usr/sbin/fw_setenv bootfromnand 1
+
+reboot
